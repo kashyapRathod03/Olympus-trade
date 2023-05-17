@@ -1,0 +1,76 @@
+.bmain-div{
+    margin: 0%;
+    display: flex; 
+}
+.side-section{
+    display: inline-block;
+    /* position: fixed; */
+    margin-top: 8%;
+    width: 30rem;
+    padding: 2% 7% 5% 0%;
+    /* border-right: 2px solid black  !important; */
+}
+.side-span{
+    font-size: 2vh;
+    width: fit-content;
+    /* border-bottom: 1px solid black; */
+}
+.option_b1{
+    display: none;
+}
+
+/* main section...................................................................................... */
+
+.main-section{
+    display: inline-block;
+    padding-left: 3%;
+    margin-top: 9%;
+    /* border: 1px solid black; */
+}
+.main-head{
+    font-size: 4vh;
+    font-weight: 700;
+    margin: 5% 0% 5% 0%;/*top right bottom left*/
+}
+.main-span {
+    font-size: 2.5vh;
+    text-align: justify;
+}
+.main-span:hover{
+    text-shadow: none;
+}
+.span-img1{
+    height: 3.5%;
+    width: 45%;
+    margin: 5% 0% 5% 25%;  
+}
+@media only screen and (max-width: 920px) {
+
+.side-section{
+    /* margin-top: 8%; */
+    width: 35rem;
+    overflow-x: scroll;
+    /* padding: 2% 7% 5% 0%; */
+}
+.main-head{
+    font-size: 3vh;
+}
+.main-span{
+    font-size: 2vh; 
+}
+}
+@media only screen and (max-width: 500px) {
+    .bmain-div{
+        display: block;        
+    }
+.side-section{
+    display: none;
+}
+.span-img1{
+    height: 3%;
+    width: 50%;
+}
+.option_b1{
+    display: block;
+}
+}

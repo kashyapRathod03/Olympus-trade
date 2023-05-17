@@ -1,0 +1,35 @@
+.option-main{
+    display: flex;
+    justify-content: space-between;  
+    width: 90%;
+    overflow: auto;
+    margin: 3% 0% 0% 5vw;
+    line-height: 0.7vh;
+    scroll-behavior: inherit;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.option-spanh1{
+    font-size: 4.5vh;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0% 0% 0% 5%;
+}
+.option-span{
+    display: flex;
+    margin: 0% 5% 0% 5%;
+    font-size: 3vh;
+    cursor: pointer;
+    /* border-left: 1px solid black; */
+}
+
+@media only screen and (max-width: 912px) {
+    .option-spanh1{
+        font-size: 4vh;
+        font-weight: 500;
+        margin: 0% 0% 10% 5% !important;
+    }
+    .option-span{
+        font-size: 2.5vh;
+    }
+ }

@@ -1,0 +1,45 @@
+.mainhelp-div{
+    display: flex;
+    margin: 10% 10%;
+    cursor: pointer;
+}
+.mainhelp-list{
+    list-style-type: none;
+    font-size: 6vh ;
+    margin-bottom: 7%;
+}
+.mainhelp-list:hover{
+    text-shadow: 2px 2px 3px rgb(86, 82, 82);
+
+}
+.help-ol-list{
+    cursor: pointer;
+}
+.help-ol-child{
+    list-style-type: none;
+    font-size: 3vh;
+}
+.help-ol-child:hover{
+    text-shadow: 2px 2px 3px rgb(86, 82, 82);
+}
+@media only screen and (max-width: 912px) {
+    .mainhelp-list{
+        font-size: 4vh;
+    }
+    .help-ol-child{
+        list-style-type: none;
+        font-size: 2vh;
+    }
+ }
+@media only screen and (max-width: 300px) {
+    .mainhelp-div{
+        margin: 2% 2%;
+        font-size: 4vh;
+    }
+    .mainhelp-list{
+        font-size: 4vh;
+    }
+    .help-ol-child{
+        font-size: 2.2vh;
+    }   
+ }

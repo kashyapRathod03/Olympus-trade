@@ -1,0 +1,70 @@
+.lmain-div_l14{
+    margin: 0%;
+    display: flex;    
+}
+.lside-section{
+    display: inline-block;
+    margin-top: 8%;
+    width: 20rem;
+    padding: 2% 7% 5% 0%;
+    /* border: 1px solid black; */
+}
+.side-span{
+    font-size: 2vh;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+.option_b1{
+    display: none;
+}
+/* main section...................................................................................... */
+
+.main-section_l14{
+    display: inline-block;
+    padding-left: 3%;
+    margin-top: 9%;
+    /* border: 1px solid black; */
+}
+.main-head_l14{
+    font-size: 4vh;
+    font-weight: 700;
+    margin: 5% 0% 5% 0%;/*top right bottom left*/
+}
+.main-span_l14 {
+    font-size: 2.5vh;
+    text-align: justify;
+}
+.main-span_l14:hover{
+    text-shadow: none;
+}
+.span-img_l14{
+    height: 20%;
+    width: 60%;
+    margin: 5% 0% 5% 21%;  
+}
+@media only screen and (max-width: 920px) {
+
+.lside-section{
+    /* margin-top: 8%; */
+    width: 35rem;
+    overflow-x: scroll;
+    /* padding: 2% 7% 5% 0%; */
+}
+.main-head_l14{
+    font-size: 3vh;
+}
+.main-span_l14{
+    font-size: 2vh; 
+}
+}
+@media only screen and (max-width: 500px) {
+    .lmain-div_l14{
+        display: block;        
+    }
+.lside-section{
+    display: none;
+}
+.option_b1{
+    display: block;
+}
+}
